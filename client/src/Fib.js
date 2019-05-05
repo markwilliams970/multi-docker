@@ -52,6 +52,27 @@ class Fib extends Component {
     return entries;
   }
 
+  /* render() {
+    return (
+      <div>
+        <form onSubmit={this.handleSubmit}>
+          <label>Enter your index:</label>
+          <input
+            value={this.state.index}
+            onChange={event => this.setState({ index: event.target.value })}
+          />
+          <button>Submit</button>
+        </form>
+
+        <h3>Indexes I have seen:</h3>
+        {this.renderSeenIndexes()}
+
+        <h3>Calculated Values:</h3>
+        {this.renderValues()}
+      </div>
+    ); */
+  
+  // Placeholder render function to fix problems with deploying client app by itself
   render() {
     return (
       <div>
@@ -65,12 +86,12 @@ class Fib extends Component {
         </form>
 
         <h3>Indexes I have seen:</h3>
+        <p>None</p>
 
         <h3>Calculated Values:</h3>
-        {this.renderValues()}
+        <p>None</p>
       </div>
     );
-   // {this.renderSeenIndexes()}
   }
 }
 
