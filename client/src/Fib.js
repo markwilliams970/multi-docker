@@ -52,7 +52,7 @@ class Fib extends Component {
     return entries;
   }
 
-  /* render() {
+  render() {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
@@ -70,7 +70,7 @@ class Fib extends Component {
         <h3>Calculated Values:</h3>
         {this.renderValues()}
       </div>
-    ); */
+   );
   
   // Placeholder render function to fix problems with deploying client app by itself
   render() {
